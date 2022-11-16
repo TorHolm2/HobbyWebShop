@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{70B897FA-49B2-4035-8CC8-BC1FCB2E93F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataService", "DataService\DataService.csproj", "{70B897FA-49B2-4035-8CC8-BC1FCB2E93F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopModels", "ShopModels\ShopModels.csproj", "{24B18DCD-43D4-4E30-947B-E32431C7AFCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopModels", "ShopModels\ShopModels.csproj", "{24B18DCD-43D4-4E30-947B-E32431C7AFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopData", "ShopData\ShopData.csproj", "{BA2C3CDB-8410-49D6-8EE5-1F048F9C7A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopData", "ShopData\ShopData.csproj", "{BA2C3CDB-8410-49D6-8EE5-1F048F9C7A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopApp", "DesktopApp\DesktopApp.csproj", "{B030272D-8ABD-4B00-8C15-254DB81CA3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{945A743D-9F74-40A0-8C67-00D4785ABF82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{BA2C3CDB-8410-49D6-8EE5-1F048F9C7A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA2C3CDB-8410-49D6-8EE5-1F048F9C7A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA2C3CDB-8410-49D6-8EE5-1F048F9C7A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B030272D-8ABD-4B00-8C15-254DB81CA3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B030272D-8ABD-4B00-8C15-254DB81CA3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B030272D-8ABD-4B00-8C15-254DB81CA3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B030272D-8ABD-4B00-8C15-254DB81CA3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945A743D-9F74-40A0-8C67-00D4785ABF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945A743D-9F74-40A0-8C67-00D4785ABF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945A743D-9F74-40A0-8C67-00D4785ABF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945A743D-9F74-40A0-8C67-00D4785ABF82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
